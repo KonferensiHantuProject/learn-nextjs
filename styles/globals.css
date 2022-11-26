@@ -22,6 +22,12 @@ a {
   height: 100%;
 }
 
+/* 404 Not found */
+.title-notfound{
+  color: darkgray;
+  text-align: center;
+}
+
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
