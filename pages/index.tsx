@@ -1,9 +1,10 @@
 import Layout from '../components/Layout'
 import styles from '../styles/Home.module.css'
+import Head from 'next/head'
 
 export default function Home() {
   return (
-    <Layout>
+    <Layout pageTitle='Home Page'>
       <h1 className={styles['title-homepage']} >Welcome</h1>
     </Layout>
   )
