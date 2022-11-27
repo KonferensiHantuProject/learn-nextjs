@@ -7,15 +7,14 @@ interface UserProps{
 export default function index(props: UserProps) {
   const {dataUsers} = props
 
-  console.log(dataUsers)
   return (
       <Layout pageTitle="User Page">
         {dataUsers.map(user => {
           return(
-            <>
+            <div  key={user.id}>
               <p>{user.name}</p>
               <p>{user.email}</p>
-            </>
+            </div>
           )
         })}
       </Layout>
